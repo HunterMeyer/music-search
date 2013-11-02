@@ -1,0 +1,75 @@
+/*.track-detail {
+  display: none;
+}
+
+.album-detail {
+  display: none;
+}
+
+.link {
+  text-decoration: underline;
+  color: blue;
+}
+
+.hiding {
+  display: none;
+}
+
+#tracks {
+  margin-top: 30px;
+}
+
+li {
+  cursor: pointer;
+}*/
+
+#tracks {
+  overflow: hidden;
+  float: none;
+}
+
+.track-detail {
+  display: none;
+}
+
+.album-detail {
+  display: none;
+}
+
+.hiding {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-overflow: hidden;
+}
+ 
+li {
+  font: 200 14px Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+li:last-child {
+  border: none;
+}
+
+li a{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li:hover {
+  /*font-size: 20px;*/
+  background: #f6f6f6;
+}

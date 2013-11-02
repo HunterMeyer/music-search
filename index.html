@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Music Search</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Music Search</h1>
+      <hr>
+
+      <p>Please enter a song title, artist, album, or keyword to search:</p>
+
+      <form id="music-search">
+        <input name="q" id="keywords" type="text" placeholder="Song Name"></input>
+        <button type="submit">Find!</button>
+      </form>
+
+      <ul id="tracks">
+      </ul>
+
+    <div>
+    <div id="music-video" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Music Video</h4>
+          </div>
+          <div class="modal-body">
+            <p>Empty</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
