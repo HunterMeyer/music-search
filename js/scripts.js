@@ -61,13 +61,3 @@ $(function() {
     return false;
   });
 });
-
-/*  // WITH SPOTIFY PLAY BUTTON
-
-$("li.track").click(function() {
-  var spotifyURI = $(this).attr("value");  // value = spotify URI
-
-  $(this).next("ul").append("<iframe src='https://embed.spotify.com/?uri=" + spotifyURI + "' width='300' height='80' frameborder='0' allowtransparency='true'></iframe>");
-});
-
-*/
