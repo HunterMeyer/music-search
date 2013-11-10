@@ -1,28 +1,3 @@
-/*.track-detail {
-  display: none;
-}
-
-.album-detail {
-  display: none;
-}
-
-.link {
-  text-decoration: underline;
-  color: blue;
-}
-
-.hiding {
-  display: none;
-}
-
-#tracks {
-  margin-top: 30px;
-}
-
-li {
-  cursor: pointer;
-}*/
-
 #tracks {
   overflow: hidden;
   float: none;
@@ -73,3 +48,4 @@ li:hover {
   /*font-size: 20px;*/
   background: #f6f6f6;
 }
+
